@@ -15,34 +15,34 @@ export default function NavBar() {
                     height="50"
                 />
             </div>
-            <div className="hidden md:flex text-c_blue font-semibold">
+            <div className="hidden md:flex text-c_blue font-semibold text-sm gap-2 lg:gap-8">
                 <div>
-                    <Link href="/" className="p-5">
+                    <Link href="/">
                         الرئيسية
                     </Link>
                 </div>
                 <div>
-                    <Link href="/" className="p-5">
+                    <Link href="/">
                         من نحن
                     </Link>
                 </div>
                 <div>
-                    <Link href="/" className="p-5">
+                    <Link href="/">
                         اتصل بنا
                     </Link>
                 </div>
                 <div>
-                    <Link href="/" className="p-5">
+                    <Link href="/">
                         الدعم الفني
                     </Link>
                 </div>
                 <div>
-                    <Link href="/" className="p-5">
+                    <Link href="/">
                         أرقام التشغيل
                     </Link>
                 </div>
                 <div>
-                    <Link href="/" className="p-5">
+                    <Link href="/">
                         سياسية الخصويصية
                     </Link>
                 </div>

@@ -5,7 +5,7 @@ import { AdjustmentsHorizontalIcon, MagnifyingGlassIcon } from "@heroicons/react
 
 export default function SearchBar() {
     return (
-        <form action="" className="w-2/5 my-12 align-middle flex justify-center">
+        <form action="" className="w-full lg:w-2/5 my-12 align-middle flex justify-center">
             <div className="relative flex items-center text-gray-400 focus-within:text-gray-800">
                 <MagnifyingGlassIcon className="w-8 h-8 absolute right-4 pointer-events-none text-c_icons" />
             </div>
