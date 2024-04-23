@@ -6,7 +6,7 @@ import { Bars3Icon } from '@heroicons/react/24/outline';
 export default function NavBar() {
     return (
         <nav className="flex justify-between items-center w-full align-middle flex-row">
-            <div className="">
+            <Link href="/">
                 <Image
                     className="min-w-full"
                     src={Logo}
@@ -14,7 +14,7 @@ export default function NavBar() {
                     width="120"
                     height="50"
                 />
-            </div>
+            </Link>
             <div className="hidden md:flex text-c_blue font-semibold text-sm gap-2 lg:gap-8">
                 <div>
                     <Link href="/">

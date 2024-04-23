@@ -21,7 +21,7 @@ export default function Home() {
             </div>
             <SearchBar />
             <div className='w-4/5 mx-auto flex flex-wrap justify-center gap-6 mb-16'>
-                <button className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
+                <Link href='/person' className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
                     <div className="mb-6 flex justify-center align-medium items-center text-card_gold_icons group-hover:text-c_white group-hover:bg-gradient-to-br group-hover:from-c_circle_start group-hover:to-c_circle_end bg-c_white rounded-full w-1/2 h-1/2">
                         <Image src={nahid} alt="photo" className="w-full h-full" />
                     </div>
@@ -37,8 +37,8 @@ export default function Home() {
                         <StarIcon className="text-star w-4 h-4 ml-2" />
                         <div className=" text-c_blue group-hover:text-c_white">4.56 (35 مراجعة)</div>
                     </div>
-                </button>
-                <button className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
+                </Link>
+                <Link href='/person' className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
                     <div className="mb-6 flex justify-center align-medium items-center text-card_gold_icons group-hover:text-c_white group-hover:bg-gradient-to-br group-hover:from-c_circle_start group-hover:to-c_circle_end bg-c_white rounded-full w-1/2 h-1/2">
                         <Image src={nahid} alt="photo" className="w-full h-full" />
                     </div>
@@ -54,8 +54,8 @@ export default function Home() {
                         <StarIcon className="text-star w-4 h-4 ml-2" />
                         <div className=" text-c_blue group-hover:text-c_white">4.56 (35 مراجعة)</div>
                     </div>
-                </button>
-                <button className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
+                </Link>
+                <Link href='/person' className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
                     <div className="mb-6 flex justify-center align-medium items-center text-card_gold_icons group-hover:text-c_white group-hover:bg-gradient-to-br group-hover:from-c_circle_start group-hover:to-c_circle_end bg-c_white rounded-full w-1/2 h-1/2">
                         <Image src={nahid} alt="photo" className="w-full h-full" />
                     </div>
@@ -71,8 +71,8 @@ export default function Home() {
                         <StarIcon className="text-star w-4 h-4 ml-2" />
                         <div className=" text-c_blue group-hover:text-c_white">4.56 (35 مراجعة)</div>
                     </div>
-                </button>
-                <button className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
+                </Link>
+                <Link href='/person' className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
                     <div className="mb-6 flex justify-center align-medium items-center text-card_gold_icons group-hover:text-c_white group-hover:bg-gradient-to-br group-hover:from-c_circle_start group-hover:to-c_circle_end bg-c_white rounded-full w-1/2 h-1/2">
                         <Image src={nahid} alt="photo" className="w-full h-full" />
                     </div>
@@ -88,8 +88,8 @@ export default function Home() {
                         <StarIcon className="text-star w-4 h-4 ml-2" />
                         <div className=" text-c_blue group-hover:text-c_white">4.56 (35 مراجعة)</div>
                     </div>
-                </button>
-                <button className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
+                </Link>
+                <Link href='/person' className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
                     <div className="mb-6 flex justify-center align-medium items-center text-card_gold_icons group-hover:text-c_white group-hover:bg-gradient-to-br group-hover:from-c_circle_start group-hover:to-c_circle_end bg-c_white rounded-full w-1/2 h-1/2">
                         <Image src={nahid} alt="photo" className="w-full h-full" />
                     </div>
@@ -105,8 +105,8 @@ export default function Home() {
                         <StarIcon className="text-star w-4 h-4 ml-2" />
                         <div className=" text-c_blue group-hover:text-c_white">4.56 (35 مراجعة)</div>
                     </div>
-                </button>
-                <button className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
+                </Link>
+                <Link href='/person' className="group hover:bg-gradient-to-br hover:from-c_start hover:to-c_end aspect-square transition-colors duration-300 shadow-md p-4 rounded-lg ease-in-out cursor-pointer  items-center justify-center flex flex-col w-full sm:w-1/3 lg:w-1/4">
                     <div className="mb-6 flex justify-center align-medium items-center text-card_gold_icons group-hover:text-c_white group-hover:bg-gradient-to-br group-hover:from-c_circle_start group-hover:to-c_circle_end bg-c_white rounded-full w-1/2 h-1/2">
                         <Image src={nahid} alt="photo" className="w-full h-full" />
                     </div>
@@ -122,7 +122,7 @@ export default function Home() {
                         <StarIcon className="text-star w-4 h-4 ml-2" />
                         <div className=" text-c_blue group-hover:text-c_white">4.56 (35 مراجعة)</div>
                     </div>
-                </button>
+                </Link>
             </div>
         </main>
     );
