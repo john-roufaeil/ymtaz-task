@@ -48,8 +48,8 @@ export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center py-4 px-12 bg-c_background">
             <NavBar />
-            <div className="mt-16 flex w-full gap-8">
-                <div className="flex flex-col w-3/5 gap-8">
+            <div className="mt-16 flex flex-col md:flex-row w-full gap-8">
+                <div className="flex flex-col w-full md:w-3/5 gap-8">
                     <div className="w-full bg-c_white shadow-md py-6 px-12 rounded-lg">
                         <h2 className="text-c_blue text-2xl font-bold mb-8">المعلومات الشخصية</h2>
                         <div className="flex">
@@ -102,7 +102,7 @@ export default function Home() {
                         <p className="text-gray_text w-5/6">استشاري القانون عبد العزيز عبد الرحمن الربعي وهو محام مرخص في المملكة العربية السعودية، يحمل درجة البكالوريوس في القانون. يتمتع بخبرة تبلغ سنتين في مجال ممارسة القانون</p>
                     </div>
                 </div>
-                <div className="w-2/5 bg-c_white shadow-md h-fit">
+                <div className="w-full md:w-2/5 bg-c_white shadow-md h-fit">
                     <div className="w-full bg-c_white shadow-md py-6 px-12 rounded-lg">
                         <h2 className="text-c_blue text-2xl font-bold mb-8 ">معلومات الحجز</h2>
                         {data.data.lawyer.services.map((service) => {
