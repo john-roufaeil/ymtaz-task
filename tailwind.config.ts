@@ -27,6 +27,8 @@ const config: Config = {
             'c_circle': '#fceccc',
             'card_title': '#292019',
             'card_text': '#6F6863',
+            'check_badge': '#1D9BF0',
+            'star': '#FBB400',
         },
         extend: {
             backgroundImage: {
