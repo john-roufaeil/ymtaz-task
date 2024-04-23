@@ -107,12 +107,31 @@ export default function Home() {
                         <h2 className="text-c_blue text-2xl font-bold mb-8 ">معلومات الحجز</h2>
                         {data.data.lawyer.services.map((service) => {
                             return (
-                                <div>
-                                    <Image alt="crown" width="20" height="16" className="mr-2" src={service.image} />
-                                    <p>{service.title}</p>
-                                    <p>{service.ymtaz_price}</p>
-                                    <p>{service.intro}</p>
-                                    <p></p>
+                                <div className="bg-c_background mb-8 p-4 rounded-lg flex flex-col">
+                                    <div className="flex justify-between">
+                                        <div className="w-3/4 flex">
+                                            <div className="w-1/3">
+                                                <Image alt="service image" width="25" height="25" src={service.image} />
+                                            </div>
+                                            <div>
+                                                <p className="text-c_blue text-lg font-bold">{service.title}</p>
+                                                <p className="text-gray_text">{service.intro}</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <p className="text-c_blue font-bold">سعر الخدمة</p>
+
+                                            <p className="text-green">
+                                                <span className=" text-2xl"> {service.ymtaz_price}</span>
+                                                <span className=" mr-2">ر.س
+                                                </span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button className="w-11/12 bg-c_start rounded-2xl p-4 m-4  text-c_white">طلب الخدمة</button>
+                                    </div>
                                 </div>
                             )
                         })}
