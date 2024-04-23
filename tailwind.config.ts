@@ -7,12 +7,15 @@ const config: Config = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        fontFamily: {
+            sans: ['"Almarai"', 'sans-serif']
+        },
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
-            'blue': '#2C4768',
-            'background': '#F9F9F9',
-            'midnight': '#121063',
+            'c_blue': '#2C4768',
+            'c_background': '#F9F9F9',
+            'c_black': '#252525',
             'metal': '#565584',
             'tahiti': '#3ab7bf',
             'silver': '#ecebff',

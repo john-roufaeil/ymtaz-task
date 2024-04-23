@@ -17,10 +17,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className="scroll-smooth" dir="rtl">
-            <Head>
+            <head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+                <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet" />
                 <link rel="icon" href="/favicon.ico" />
                 <meta charSet="UTF-8"></meta>
-            </Head>
+            </head>
             <body>{children}</body>
         </html>
     );
