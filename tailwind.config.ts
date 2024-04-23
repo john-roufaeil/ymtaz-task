@@ -29,6 +29,7 @@ const config: Config = {
             'card_text': '#6F6863',
             'check_badge': '#1D9BF0',
             'star': '#FBB400',
+            'gray_text': '#A3A4A5'
         },
         extend: {
             backgroundImage: {

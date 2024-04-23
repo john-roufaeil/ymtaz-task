@@ -2,6 +2,7 @@
   "name": "ymtaz-task",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://ymtaz.sa",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
